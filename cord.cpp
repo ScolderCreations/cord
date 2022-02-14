@@ -15,7 +15,7 @@ int main() {
   }
   input = ifstream.open(argv[0], ifstream::in);
   string currentLet;
-  string toPass new[] {}
+  string toPass[237089];
   for (int i = 0; i < input.gcount(); i++) {
     cout << input.get();
   }
