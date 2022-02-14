@@ -24,4 +24,4 @@
 #define S_TRYFAIL "catch"
 #define S_THEN "then"
 
-#define _RESERVED new[] {"os", "system", "if", "else", "elif", "return", "function", "try", "catch", "then", "undefined", "fluid", "strict"}
+#define _RESERVED [13] {"os", "system", "if", "else", "elif", "return", "function", "try", "catch", "then", "undefined", "fluid", "strict"}
