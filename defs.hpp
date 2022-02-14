@@ -20,8 +20,10 @@
 #define S_FUNC "function"
 #define S_DEFINE "@rename"
 #define S_TYPE "@type"
+#define S_IMPORT "@import"
+#define S_FROM "from"
 #define S_TRY "try"
 #define S_TRYFAIL "catch"
 #define S_THEN "then"
 
-#define _RESERVED [13] {"os", "system", "if", "else", "elif", "return", "function", "try", "catch", "then", "undefined", "fluid", "strict"}
+#define _RESERVED [14] {"os", "system", "if", "else", "elif", "return", "from", "function", "try", "catch", "then", "undefined", "fluid", "strict"}
