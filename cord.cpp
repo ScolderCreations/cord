@@ -10,8 +10,7 @@ int main() {
   try {
     input = ifstream.open(argv[0], ifstream::in);
   } catch {
-    cerr << "Could not find source file";
-    return 1;
+    throw exception;
   }
   input = ifstream.open(argv[0], ifstream::in);
   string currentLet;
