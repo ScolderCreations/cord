@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include <./defs.cpp>
+#include <./lib/defs.cpp>
 
 using namespace std;
 
