@@ -18,6 +18,7 @@ int main() {
   string toPass[150000];
   for (int i = 0; i < input.gcount(); i++) {
     currentLet = input.get();
+    curStr+=currentLet;
   }
   return 0;
 }
