@@ -1,9 +1,12 @@
 #define M_NEWLINE "\n"
+#define M_END ";"
 
 #define O_PLUS "+"
 #define O_MINUS "-"
 #define O_MULTI "*"
 #define O_DIVIDE "/"
+#define O_TERNARY "?"
+#define O_TERNELSE ":"
 
 #define B_PIPE "|"
 #define B_UPPER ">"
@@ -12,6 +15,8 @@
 #define B_LEAST ">="
 #define B_MOST "<="
 #define B_SIMILAR "~"
+#define B_EQUAL "=="
+#define B_NOTEQUAL "!="
 
 #define S_IFBEGIN "if"
 #define S_ELSE "else"
