@@ -19,3 +19,9 @@
 #define S_RETURN "return"
 #define S_FUNC "function"
 #define S_DEFINE "@rename"
+#define S_TYPE "@type"
+#define S_TRY "try"
+#define S_TRYFAIL "catch"
+#define S_THEN "then"
+
+#define RESERVED new[] {"os", "system", "if", "else", "elif", "return", "function", "try", "catch", "then", "undefined", "fluid", "strict"}
