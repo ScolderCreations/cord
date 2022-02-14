@@ -14,9 +14,10 @@ int main() {
   }
   input = ifstream.open(argv[0], ifstream::in);
   string currentLet;
-  string toPass[237089];
+  string curStr;
+  string toPass[150000];
   for (int i = 0; i < input.gcount(); i++) {
-    cout << input.get();
+    currentLet = input.get();
   }
   return 0;
 }
