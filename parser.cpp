@@ -18,25 +18,32 @@ int main() {
   string currentLet;
   string curStr;
   string toPass[150000];
+  int toPassI = 0;
   int ii = 0;
-  for (int i = 0; i < input.gcount(); i++) {
+  int gc = input.gcount();
+  for (int i = 0; i < gc; i++) {
     currentLet = input.get();
     curStr+=currentLet;
     if ((curStr.find("//") == ii - 1)) {
       curStr = "";
       ii = 0;
-      while ((currentLet != M_NEWLINE) && (i < input.gcount();) {
+      while ((currentLet != M_NEWLINE) && (i < gc;) {
         currentLet = input.get();
         i++;
       }
     }
     if ((curStr.find("/*") == ii - 1)) {
-      while (() && (i < input.gcount()) {
+      while ((currentLet != "*") && (i < gc) {
         currentLet = input.get();
         i++;
       }
+      i++;
+      currentLet = input.get();
       curStr = "";
       ii = 0;
+    }
+    if (curStr == S_IFBEGIN) {
+      
     }
     ii++;
   return 0;
