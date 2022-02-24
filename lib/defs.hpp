@@ -1,3 +1,5 @@
+#include <string> // just in case
+
 #define M_NEWLINE "\n"
 #define M_END ";"
 
