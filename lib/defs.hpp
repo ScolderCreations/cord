@@ -33,4 +33,10 @@
 #define S_TRYFAIL "catch"
 #define S_THEN "then"
 
+#define T_WEAK "fluid"
+#define T_STRICT "strict"
+#define T_NUM "number"
+#define T_STR "string"
+#define T_ARR "list"
+
 #define _RESERVED [14] {"os", "system", "if", "else", "elif", "return", "from", "function", "try", "catch", "then", "undefined", "fluid", "strict"}
