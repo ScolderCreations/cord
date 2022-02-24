@@ -15,7 +15,7 @@ int main() {
   }
   
   input = ifstream.open(argv[0], ifstream::in);
-  string currentLet;
+  char currentLet;
   string curStr;
   string toPass[150000];
   int toPassI = 0;
@@ -42,7 +42,8 @@ int main() {
       curStr = "";
       ii = 0;
     }
-    if (curStr == S_IFBEGIN) {
+    if (curStr == S_IFBEGIN) {toPass[toPassI] = S_IFBEGIN}
+    if (((currentLet == '"') || (currentLet == "'")) || (currentLet == "“")) {
       
     }
     ii++;
