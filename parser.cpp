@@ -44,8 +44,11 @@ int main() {
     }
     if (curStr == S_IFBEGIN) {toPass[toPassI] = S_IFBEGIN}
     if (((currentLet == '"') || (currentLet == "'")) || (currentLet == "“")) {
-      currentLet = input.get();
-      i++;
+      while (((currentLet != '"') || (currentLet != "'")) || (currentLet != "”")) {
+        currentLet = input.get();
+        i++;
+        curStr+=currentLet;
+      }
     }
     ii++;
   return 0;
